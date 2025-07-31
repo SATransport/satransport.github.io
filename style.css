@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 10px;
+}
+form input, form select, form button {
+    margin-top: 5px;
+    padding: 8px;
+}
+.background .bg-image {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.15;
+    z-index: 0;
+}
+.contacts a {
+    margin-right: 15px;
+}
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
